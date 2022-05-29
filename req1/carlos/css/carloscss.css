@@ -1,0 +1,28 @@
+#prof {
+    color: blue
+}
+
+#grados {
+    color: rebeccapurple
+}
+
+a {
+    color: green
+}
+
+#direc {
+    margin-left: 80px;
+    color: orange
+}
+
+#formulario {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    
+}
+
+body {
+    background-color: bisque
+}
+
