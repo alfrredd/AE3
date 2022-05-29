@@ -31,8 +31,8 @@
                     <tbody>
                         <xsl:for-each select="/ite/profesores/profesor">
                             <tr>
-                                <td><xsl:value-of select="id"/></td>
                                 <td><xsl:value-of select="nombre"/></td>
+                                <td><xsl:value-of select="id"/></td>
                             </tr>
                         </xsl:for-each> 
                     </tbody>
