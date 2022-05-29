@@ -54,7 +54,7 @@
                                 <td><xsl:value-of select="@id"/></td>
                                 <td><xsl:value-of select="nombre"/></td>
                                 <td><xsl:value-of select="grado"/></td>
-                                <td><xsl:value-of select="/decretoTitulo "/></td>
+                                <td><xsl:value-of select="decretoTitulo/@año"/></td>
                             </tr>
                         </xsl:for-each> 
                     </tbody>
