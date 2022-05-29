@@ -1,0 +1,32 @@
+section{
+    text-align: center;
+    font-family: Book Antiqua;
+    border: 5px double red;
+    padding: 5px;
+}
+table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+form{
+    text-align: center;
+    font-family: Book Antiqua;
+    border: 5px double black;
+    padding: 5px;
+    margin-top: 5px;
+}
+h2{
+    color: darkblue;
+}
+p{
+    color: blue;
+}
+a{
+    color: brown;
+    text-decoration:none;
+}
+a:hover{
+    color: darkgreen;
+    text-decoration: underline;
+}
