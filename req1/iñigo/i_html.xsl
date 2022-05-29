@@ -14,6 +14,7 @@
                     <dd><xsl:value-of select="nombre"/></dd>
                     <dd><xsl:value-of select="despacho"/></dd>
                 </dl>
+                 </xsl:for-each>
                 <br/>
                 <xsl:for-each select="jefe_estudios">
                     <dl>
@@ -21,7 +22,7 @@
                         <dd><xsl:value-of select="nombre"/></dd>
                         <dd><xsl:value-of select="despacho"/></dd>
                     </dl>
-            
+                </xsl:for-each>
                 <h1>Profesores</h1>
                     <xsl:for-each select="profesores/profesor"></xsl:for-each>
                     <table>
@@ -35,7 +36,7 @@
                             <td>xsl:value-of select="nombre"/></td>
                         </tr>
                     </table>
-                   
+                
                 <h1>Cursos</h1>
                     <br/>
                     <xsl:for-each select="ciclos/ciclo">
@@ -54,6 +55,7 @@
                         <td>xsl:value-of select="@año"/></td>  
                     </tr>
                 </table>
+                 </xsl:for-each>
 
                 <h1>ingresa tus datos y nos pondremos en contacto contigo</h1>
                 <form action="https://institutotecnologico.edix.com" method="get"></form>
@@ -72,7 +74,6 @@
                     <p>Telefono +34 91 787 39 91</p>
                     <p>href="https://institutotecnologico.edix.com"</p>
                 </footer>
-
             </body>
         </html> 
 
